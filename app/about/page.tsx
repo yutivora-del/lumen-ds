@@ -8,7 +8,7 @@ export default function AboutPage() {
       <div className="grid gap-16 lg:grid-cols-12">
         <aside className="lg:col-span-4">
           <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-ink-subtle">
-            Colophon
+            About
           </p>
           <h1 className="mt-3 font-display text-display-2 text-balance">
             Why Lumen exists.
