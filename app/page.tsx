@@ -18,7 +18,7 @@ export default function HomePage() {
                 v0.1 · 8 components
               </Badge>
               <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink-subtle">
-                MIT licensed
+                Open source
               </span>
             </div>
             <h1 className="font-display text-display-1 text-balance">
