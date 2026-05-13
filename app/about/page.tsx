@@ -15,8 +15,9 @@ export default function AboutPage() {
           </h1>
           <div className="mt-8 space-y-1 font-mono text-xs text-ink-subtle">
             <p>v0.1 · May 2026</p>
-            <p>MIT licensed</p>
-            <p>Built in Boston</p>
+            <a href="mailto:yutivora@gmail.com" className="hover:text-ink transition-colors">yutivora@gmail.com</a>
+            
+            
           </div>
         </aside>
 
