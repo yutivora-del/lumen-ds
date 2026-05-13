@@ -1,3 +1,4 @@
+"use client";
 import { Avatar } from "@/components/ui/avatar";
 import { ComponentPreview } from "@/components/docs/component-preview";
 import { CodeBlock } from "@/components/docs/code-block";

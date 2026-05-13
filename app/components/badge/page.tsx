@@ -1,3 +1,4 @@
+"use client";
 import { Badge } from "@/components/ui/badge";
 import { ComponentPreview } from "@/components/docs/component-preview";
 import { CodeBlock } from "@/components/docs/code-block";

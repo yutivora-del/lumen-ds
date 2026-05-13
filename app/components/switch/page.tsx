@@ -1,3 +1,4 @@
+"use client";
 import { Switch } from "@/components/ui/switch";
 import { ComponentPreview } from "@/components/docs/component-preview";
 import { CodeBlock } from "@/components/docs/code-block";

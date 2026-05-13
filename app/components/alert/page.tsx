@@ -1,3 +1,4 @@
+"use client";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { ComponentPreview } from "@/components/docs/component-preview";
 import { CodeBlock } from "@/components/docs/code-block";

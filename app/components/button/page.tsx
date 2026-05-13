@@ -1,3 +1,4 @@
+"use client";
 import { Button } from "@/components/ui/button";
 import { ComponentPreview } from "@/components/docs/component-preview";
 import { CodeBlock } from "@/components/docs/code-block";

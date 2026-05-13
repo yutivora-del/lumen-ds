@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { ArrowUpRight, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
