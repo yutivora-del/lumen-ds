@@ -90,10 +90,7 @@ Every visual decision is a CSS variable in `app/globals.css`. To rebrand:
 
 Every component will follow. That's the point.
 
-## License
-
-MIT — take what's useful, leave the rest.
 
 ## Credits
 
-Built by Yuti. Inspired by shadcn/ui's "copy, don't install" model.
+Built by Yuti Vora, Product Designer
