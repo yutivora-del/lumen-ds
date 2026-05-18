@@ -108,7 +108,7 @@ export default function SupportPage() {
           <div className="mb-12 flex flex-col gap-2 lg:flex-row lg:items-end lg:justify-between">
             <div>
               <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-ink-subtle">
-                Three ways
+                Two ways
               </p>
               <h2 className="mt-2 font-display text-display-2 text-balance">
                 Pay what feels right.{" "}
@@ -121,7 +121,7 @@ export default function SupportPage() {
             </p>
           </div>
 
-          <div className="grid gap-px overflow-hidden rounded-lg border border-line bg-line lg:grid-cols-3">
+          <div className="grid gap-px overflow-hidden rounded-lg border border-line bg-line lg:grid-cols-2">
             {tiers.map((tier) => {
               const Icon = tier.icon;
               return (
