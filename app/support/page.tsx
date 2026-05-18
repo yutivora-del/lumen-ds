@@ -47,6 +47,7 @@ const tiers = [
     ],
     accent: true,
   },
+];
  
 
 const faqs = [
