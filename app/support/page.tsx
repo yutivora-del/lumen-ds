@@ -47,26 +47,7 @@ const tiers = [
     ],
     accent: true,
   },
-  {
-    name: "Studio sponsor",
-    amount: "$25",
-    cadence: "Monthly",
-    icon: Sparkles,
-    description:
-      "If Lumen saves your team a few hours a month, this is the math. Recurring, cancelable anytime, no obligation either way.",
-    cta: {
-      label: "Become a sponsor",
-      href: "https://github.com/sponsors/yuti",
-      variant: "outline" as const,
-    },
-    includes: [
-      "Studio logo in the site footer",
-      "Early access to new components",
-      "First read on the field-notes essays",
-      "A direct line for feedback",
-    ],
-  },
-];
+ 
 
 const faqs = [
   {
@@ -145,9 +126,8 @@ export default function SupportPage() {
               return (
                 <div
                   key={tier.name}
-                  className={`relative flex flex-col bg-paper p-8 ${
-                    tier.accent ? "lg:py-10" : ""
-                  }`}
+                  className={`relative flex flex-col bg-paper p-8 ${tier.accent ? "lg:py-10" : ""
+                    }`}
                 >
                   {tier.accent && (
                     <div className="absolute right-6 top-6">
@@ -156,9 +136,8 @@ export default function SupportPage() {
                   )}
                   <div className="mb-6 flex items-center gap-3">
                     <div
-                      className={`flex h-9 w-9 items-center justify-center rounded border border-line ${
-                        tier.accent ? "bg-accent/10 text-accent" : "bg-paper-sunken text-ink-muted"
-                      }`}
+                      className={`flex h-9 w-9 items-center justify-center rounded border border-line ${tier.accent ? "bg-accent/10 text-accent" : "bg-paper-sunken text-ink-muted"
+                        }`}
                     >
                       <Icon className="h-4 w-4" />
                     </div>
@@ -273,25 +252,7 @@ export default function SupportPage() {
         </div>
       </section>
 
-      {/* SPONSORS */}
-      <section className="border-b border-line">
-        <div className="container py-20 lg:py-24">
-          <div className="mb-10 flex flex-col gap-2 lg:flex-row lg:items-end lg:justify-between">
-            <h2 className="font-display text-display-3 text-balance max-w-xl">
-              Studios keeping this going.
-            </h2>
-            <p className="max-w-md text-sm text-ink-muted">
-              Your name could be here. It&apos;s quiet placement — no testimonials, no
-              cringe — just a thank-you, where it counts.
-            </p>
-          </div>
-          <div className="rounded-lg border border-line bg-paper-sunken p-10">
-            <p className="text-center font-mono text-[10px] uppercase tracking-[0.22em] text-ink-subtle">
-              No sponsors yet. Be the first.
-            </p>
-          </div>
-        </div>
-      </section>
+
 
       {/* FAQ */}
       <section className="border-b border-line">
