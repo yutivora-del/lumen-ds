@@ -19,7 +19,7 @@ const display = Fraunces({
 export const metadata: Metadata = {
   title: "Lumen — a quiet design system",
   description:
-    "An editorial, open design system. Tokens, components, and copy-paste code. Built by Yuti.",
+    "An editorial, open design system. Tokens, components, and copy-paste code. Built by Yuti Vora, a product designer.",
   metadataBase: new URL("https://lumen-ds.vercel.app"),
   openGraph: {
     title: "Lumen — a quiet design system",

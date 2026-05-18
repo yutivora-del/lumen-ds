@@ -24,7 +24,7 @@ const tiers = [
     includes: [
       "All 16 components",
       "All tokens & docs",
-      "MIT license — commercial use OK",
+      "Open source — copy freely",
       "No attribution required",
     ],
     note: "This is the real product. The tiers below are if you want to chip in.",
@@ -70,8 +70,8 @@ const tiers = [
 
 const faqs = [
   {
-    q: "Why ask for money if it's MIT?",
-    a: "Because I'd like to keep working on it. The license stays the same either way — you owe nothing, and you can't unlock more by paying. The tiers exist for people who've already gotten value and want to send some back.",
+    q: "Why ask for money if it's open source?",
+    a: "Because I'd like to keep working on it. The terms stay the same either way — you owe nothing, and you can't unlock more by paying. The tiers exist for people who've already gotten value and want to send some back.",
   },
   {
     q: "Are components behind any of these tiers locked?",
@@ -112,7 +112,7 @@ export default function SupportPage() {
               <span className="italic text-ink-muted">If it&apos;s useful, you can say so.</span>
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-ink-muted">
-              The library is MIT licensed. Nothing here is gated, watermarked, or held
+              The library is open source. Nothing here is gated, watermarked, or held
               back. These tiers exist for people who&apos;ve gotten value out of Lumen
               and want to throw a little back — that&apos;s the whole pitch.
             </p>

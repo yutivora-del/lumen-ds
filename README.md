@@ -110,4 +110,4 @@ Every component will follow. That's the point.
 
 ## Credits
 
-Built by Yuti Vora, Product Designer
+Built by Yuti Vora, a product designer.Vora, Product Designer

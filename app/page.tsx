@@ -18,7 +18,7 @@ export default function HomePage() {
                 v0.2 · 16 components
               </Badge>
               <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink-subtle">
-                MIT licensed
+                Open source
               </span>
             </div>
             <h1 className="font-display text-display-1 text-balance">
@@ -181,7 +181,7 @@ export default function HomePage() {
                 <span className="italic text-ink-muted">always.</span>
               </h2>
               <p className="mt-4 max-w-xl text-sm leading-relaxed text-ink-muted">
-                Lumen is MIT licensed and nothing here is gated. If it ends up useful,
+                Lumen is open source and nothing here is gated. If it ends up useful,
                 you can tip the bar or sponsor the studio — entirely optional, entirely
                 appreciated.
               </p>

@@ -27,7 +27,7 @@ export default function AccordionPage() {
             <AccordionItem value="item-1">
               <AccordionTrigger>Is Lumen really free?</AccordionTrigger>
               <AccordionContent>
-                Yes. MIT licensed. Copy what you need, change what you don&apos;t.
+                Yes. Open source. Copy what you need, change what you don&apos;t.
                 No attribution required.
               </AccordionContent>
             </AccordionItem>
@@ -49,7 +49,7 @@ export default function AccordionPage() {
         code={`<Accordion type="single" collapsible>
   <AccordionItem value="item-1">
     <AccordionTrigger>Is Lumen really free?</AccordionTrigger>
-    <AccordionContent>Yes. MIT licensed.</AccordionContent>
+    <AccordionContent>Yes. Open source.</AccordionContent>
   </AccordionItem>
 </Accordion>`}
       />

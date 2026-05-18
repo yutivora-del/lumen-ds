@@ -49,7 +49,7 @@ export function CodeBlock({ code, language = "tsx", className }: CodeBlockProps)
         </button>
       </div>
       <pre className="overflow-x-auto p-4 text-[13px] leading-relaxed">
-        <code className="font-mono text-ink">{code}</code>
+        <code className="font-sans text-ink">{code}</code>
       </pre>
     </div>
   );
