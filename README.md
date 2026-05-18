@@ -6,11 +6,28 @@ Live: _deploy to Vercel to set your URL_
 
 ---
 
+## What's new in v0.2
+
+Eight new complex components, plus a Support page.
+
+- **Dialog** — modal surface (Radix Dialog)
+- **Dropdown Menu** — action lists with sub-menus, shortcuts, separators (Radix DropdownMenu)
+- **Tooltip** — hairline label overlays (Radix Tooltip)
+- **Accordion** — disclosure sections (Radix Accordion)
+- **Toast** — ephemeral notifications via a custom provider + `useToast()` hook
+- **Command** — keyboard-first ⌘K palette with filtering and groups
+- **Data Table** — sortable rows, sticky header, mono numerics
+- **Select** — single-value picker (Radix Select)
+
+The Support page (`/support`) outlines three optional tiers: free MIT (the default), one-time coffee, and a recurring studio sponsorship. Nothing in the library is gated.
+
+---
+
 ## Stack
 
 - **Next.js 14** (App Router, TypeScript)
 - **Tailwind CSS** with HSL token layer
-- **Radix Primitives** for Tabs, Switch, Slot
+- **Radix Primitives** for Tabs, Switch, Slot, Dialog, Dropdown Menu, Tooltip, Accordion, Select, Popover
 - **Fraunces** (display) + **Geist** (sans) via `next/font`
 - Light + dark themes
 

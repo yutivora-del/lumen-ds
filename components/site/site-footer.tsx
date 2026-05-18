@@ -9,7 +9,7 @@ export function SiteFooter() {
             A quiet system, loudly considered.
           </p>
           <p className="mt-2 max-w-md text-sm text-ink-muted">
-            Lumen is an open design system by Yuti Vora, a product designer, built to bridge the gap
+            Lumen is an open design system by Yuti — built to bridge the gap
             between Figma and code. Take what's useful.
           </p>
         </div>
@@ -17,12 +17,13 @@ export function SiteFooter() {
           <Link href="/docs/installation" className="hover:text-ink">Installation</Link>
           <Link href="/tokens" className="hover:text-ink">Tokens</Link>
           <Link href="/components" className="hover:text-ink">Components</Link>
-          <Link href="/about" className="hover:text-ink">About</Link>
+          <Link href="/support" className="hover:text-ink">Support</Link>
+          <Link href="/about" className="hover:text-ink">Colophon</Link>
         </div>
       </div>
       <div className="border-t border-line">
         <div className="container flex h-12 items-center justify-between text-xs text-ink-subtle">
-          <span>© {new Date().getFullYear()} Yuti Vora. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Yuti — MIT licensed.</span>
           <span className="font-mono uppercase tracking-[0.2em]">
             Lumen / v0.1
           </span>

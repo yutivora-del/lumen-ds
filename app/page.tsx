@@ -15,10 +15,10 @@ export default function HomePage() {
             <div className="mb-8 flex items-center gap-3">
               <Badge variant="outline">
                 <span className="mr-1 inline-block h-1.5 w-1.5 rounded-full bg-accent" />
-                v0.1 · 8 components
+                v0.2 · 16 components
               </Badge>
               <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink-subtle">
-                Open source
+                MIT licensed
               </span>
             </div>
             <h1 className="font-display text-display-1 text-balance">
@@ -143,7 +143,7 @@ export default function HomePage() {
               href="/components"
               className="hidden text-sm text-ink-muted underline-offset-4 hover:text-ink hover:underline md:inline"
             >
-              All 8 components →
+              All 16 components →
             </Link>
           </div>
 
@@ -164,6 +164,45 @@ export default function HomePage() {
                 </Card>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* SUPPORT — quiet strip */}
+      <section className="border-b border-line bg-paper-sunken/40">
+        <div className="container py-16 lg:py-20">
+          <div className="grid items-center gap-8 lg:grid-cols-12">
+            <div className="lg:col-span-7">
+              <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-ink-subtle">
+                Support
+              </p>
+              <h2 className="mt-2 font-display text-display-3 text-balance">
+                Free, as in{" "}
+                <span className="italic text-ink-muted">always.</span>
+              </h2>
+              <p className="mt-4 max-w-xl text-sm leading-relaxed text-ink-muted">
+                Lumen is MIT licensed and nothing here is gated. If it ends up useful,
+                you can tip the bar or sponsor the studio — entirely optional, entirely
+                appreciated.
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-3 lg:col-span-5 lg:justify-end">
+              <Button asChild variant="outline">
+                <Link href="/support">
+                  See the tiers
+                  <ArrowUpRight className="h-4 w-4" />
+                </Link>
+              </Button>
+              <Button asChild>
+                <a
+                  href="https://www.buymeacoffee.com/yuti"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Buy me a coffee
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>

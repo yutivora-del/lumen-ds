@@ -8,16 +8,15 @@ export default function AboutPage() {
       <div className="grid gap-16 lg:grid-cols-12">
         <aside className="lg:col-span-4">
           <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-ink-subtle">
-            About
+            Colophon
           </p>
           <h1 className="mt-3 font-display text-display-2 text-balance">
             Why Lumen exists.
           </h1>
           <div className="mt-8 space-y-1 font-mono text-xs text-ink-subtle">
             <p>v0.1 · May 2026</p>
-            <a href="mailto:yutivora@gmail.com" className="hover:text-ink transition-colors">yutivora@gmail.com</a>
-            
-            
+            <p>MIT licensed</p>
+            <p>Built in Boston</p>
           </div>
         </aside>
 

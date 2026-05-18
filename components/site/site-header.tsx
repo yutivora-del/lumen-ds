@@ -28,6 +28,9 @@ export function SiteHeader() {
             <Link href="/components" className="text-ink-muted transition hover:text-ink">
               Components
             </Link>
+            <Link href="/support" className="text-ink-muted transition hover:text-ink">
+              Support
+            </Link>
             <Link href="/about" className="text-ink-muted transition hover:text-ink">
               About
             </Link>

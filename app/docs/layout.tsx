@@ -1,3 +1,4 @@
+import React from "react";
 import { DocsSidebar } from "@/components/docs/docs-sidebar";
 
 export default function DocsLayout({ children }: { children: React.ReactNode }) {
